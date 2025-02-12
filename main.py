@@ -2,6 +2,7 @@ import random
 from openai import OpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
+import os
 
 import streamlit as st
 st.title("Science Bowl Question Generator")
